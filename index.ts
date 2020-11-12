@@ -5,7 +5,10 @@
 // OPCIONAL: Dentro de "getData" añadid un condicional con una guarda para diferenciar cuando reciba un tipo "number" y sacar por consola mensajes distintos para las dos llamadas anteriormente mencionadas.
 // Ánimo que ya lo tenéis!
 
-import {userData} from "./user-data";
+// Import data from user-data.
+import {UserData} from "./user-data";
+
+//Create variable.
 let user: UserData;
 
 
