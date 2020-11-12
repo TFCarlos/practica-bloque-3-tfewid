@@ -8,19 +8,21 @@
 // Import data from user-data.
 import {UserData} from "./user-data";
 
-//Create variable.
+// Create variable.
 let user: UserData;
 
-
-function getData<string | number>(arg0: string | number) : void {
-  console.log(arg0);
+// Create getData function
+function getData<string | number>(args0: string | number) : void {
+  console.log(args0);
 }
 
+// Adding user data.
 user =  {
   name: "Natasha";
   age: 25;
-  phone: 689452123;
+  phone: 612345678;
 };
 
+// Example
 let nameUser = getData<string>(user.name);
 let phoneUse = getData<number>(user.phone);
