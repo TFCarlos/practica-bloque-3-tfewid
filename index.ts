@@ -11,21 +11,21 @@
 // Ánimo que ya lo tenéis!
 
 // Import data from user-data.
-import {UserData} from "./user-data";
+import { UserData } from "./user-data";
 
 // Create variable.
 let user: UserData;
 
 // Create getData function
-function getData<T>(args0 : T) : void {
+function getData<T>(args0: T): void {
   console.log(args0);
 }
 
 // Adding user data.
-user =  {
-  name: "Natasha";
-  age: 25;
-  phone: 612345678;
+user = {
+  name: "Natasha",
+  age: 25,
+  phone: 612345678
 };
 
 // Example
