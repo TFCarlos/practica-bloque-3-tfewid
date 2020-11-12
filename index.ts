@@ -9,7 +9,7 @@ import {userData} from "./user-data";
 let user: UserData;
 
 
-function getData<T>(arg0: T) : void {
+function getData<string | number>(arg0: string | number) : void {
   console.log(arg0);
 }
 
@@ -20,4 +20,4 @@ user =  {
 };
 
 let nameUser = getData<string>(user.name);
-let phoneUse = getData<number>(user.phobe);
+let phoneUse = getData<number>(user.phone);
